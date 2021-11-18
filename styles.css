@@ -1,0 +1,387 @@
+.header {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 10px;
+
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar{
+
+background-color: #181D31
+
+
+}
+.navv{
+  color:white;
+  font-size: 1.5rem;
+}
+.header-right {
+  float: right;
+}
+.nav-link{
+margin-left:15px;
+}
+.box{
+  border-radius: 100px;
+}
+.submit-box{
+    border-radius: 100px;
+}
+.img-heading{
+  margin-bottom: 30%;
+color:black;
+  font-size: 3.5rem;
+}
+.img2{
+  margin-bottom: 30%;
+
+  font-size: 3.5rem;
+  color:white;
+}
+.imgp{
+  color:white;
+
+}
+.img-2{
+  color:black;
+  font-weight: bold;
+}
+.button-img{
+  margin-bottom: 20px;
+  padding:10px;
+  border-radius: 100px;
+}
+.button-img:hover{
+  background-color: white;
+color:#009DAE;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+[class*="col-"] {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+   }
+   .aboutus{
+    display: block;
+    background: #39b54a;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "lora-regular", serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+   }
+   .aboutus h1{
+    color: white;
+    font-size: 40px;
+    }
+    .co{
+      border-bottom: solid;
+      border-width: 1px;
+      border-color: white;
+      margin: 2% 5%;
+      width: 80%;
+      border-radius: 10px;
+
+    }
+
+
+@media only screen and (min-width: 768px)
+{
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .aboutus{
+    line-height: 35px;
+    font-size: 25px;
+    padding:4% 7% 15%;
+    }
+   .aboutus h1{
+    font-size: 65px;
+    }
+}
+#services{
+  padding :4% 7% 15%;
+  text-align: center;
+  font-size:1.5rem;
+
+}
+.services-heading{
+  color: #233e62;
+  margin:10px;
+  line-height: 2;
+}
+.service-para{
+  margin:10px;
+}
+#features{
+padding: 1% 15%;
+position: relative;
+background-color: #fff;
+text-align: center;
+}
+.icon{
+  font-size: 4rem;
+  color: #3DB2FF;
+margin-bottom: 1.5rem;
+}
+.features{
+    padding: 5%;
+}
+.icon:hover{
+  color:black;
+}
+.quest{
+  text-align: center;
+  background-color:#3DB2FF;
+  padding:3% 7%
+
+}
+.button-ki{
+  margin-left: 10%;
+  font-size: 1.5rem;
+  border-radius: 100px;
+}
+.button-ki:hover{
+  color:white;
+  background-color: black;
+}
+#ourwork{
+  padding :4% 7% 15%;
+  text-align: center;
+  font-size:1.5rem;
+}
+.work-heading{
+  color: #233e62;
+  margin:10px;
+  line-height: 4;
+}
+.work-heading{
+  margin:10px;
+  line-height: 2;
+}
+.work-img:hover{
+  background-color:#3DB2FF;
+}
+#blog{
+  padding :4% 7% 15%;
+  text-align: center;
+  font-size:1.5rem;
+}
+.blog-heading{
+  color: #233e62;
+  margin:10px;
+  line-height: 2;
+}
+.work-para{
+  line-height: 2;
+}
+#blog-img{
+  text-align: center;
+    padding :4% 7% 15%;
+    align-items: center;
+}
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    color:grey;
+    font-size: 1.5rem;
+}
+.button-down:hover{
+  color:white;
+  background-color: black;
+}
+.section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%
+}
+
+#clients {
+    padding: 60px 0
+}
+
+#clients .clients-wrap {
+    border-top: 1px solid #d6eaff;
+    border-left: 1px solid #d6eaff;
+    margin-bottom: 30px
+}
+
+#clients .client-logo {
+    padding: 64px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #d6eaff;
+    border-bottom: 1px solid #d6eaff;
+    overflow: hidden;
+    background: #fff;
+    height: 160px
+}
+
+#clients img {
+    transition: all 0.4s ease-in-out
+}
+#bg{
+height: 300px;
+background-image: url("https://media.istockphoto.com/photos/contact-us-picture-id1049658692?k=20&m=1049658692&s=612x612&w=0&h=z3sXVbzDit8RKnsC0ihEuFub42FqfmbRcP4vWHOKLK4=");
+}
+#contact{
+  background-color:#181D31;
+  color:white;
+
+}
+.wrapper{
+  text-align: center;
+}
+.msg{
+  text-align: center;
+  font-size: 30px;
+}
+h3{
+  text-align: center;
+  padding-top: 20px;
+}
+
+}
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.3em;
+}
+span {
+    font-weight: 700;
+    color: white;
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.span2{
+
+  padding-left: 50%;
+}
+
+
+
+form {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.required-star {
+    color: #fc4366;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 9px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff;
+    color: #102a43;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
+}
+.down-input{
+  width: 100%;
+  padding: 9px 20px;
+  border: 1px solid #e1e2eb;
+  background-color: #fff;
+  color: #102a43;
+  caret-color: #829ab1;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 29px;
+  line-height: 2rem;
+  box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+  border-radius: 3px;
+  line-height: 29px;
+  line-height: 2rem;
+}
